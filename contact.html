@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nostra</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <!-- My stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Tailwindcss -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+         <!--Navigation Bar-->
+         <nav class="navbar">
+            <h1 class="text-3xl font-bold">Nostra</h1>
+            <svg id="openmenu" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 md:hidden">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+            </svg>
+            <div class="navbar-links hidden md:flex">
+                <p class="navbar-link"><a href="index.html">Home</a></p>
+                <p class="navbar-link"><a href="#new-arrival">New Arrival</a></p>
+                <p class="navbar-link"><a href="#most-wanted">Most Wanted</a></p>
+                <p class="navbar-link"><a href="collections.html">Collections</a></p>
+                <p class="navbar-link"><a href="./contact.html">Contact Us</a></p>
+            </div>
+        </nav>
+       
+        <div id="sidenav" class="fixed z-20 top-0 transition-all duration-1000"
+        style="width: 50%;height: 100vh;left: -50%; background-color: #1D232C;"> 
+        <div class="text-right p-5 text-white">
+            <p id="closemenu" class="inline cursor-pointer">X</p>
+        </div>
+            <div class="flex gap-10 text-white font-bold  flex-col items-center">
+                <p class="navbar-link"><a href="index.html">Home</a></p>
+                <p class="navbar-link"><a href="#new-arrival">New Arrival</a></p>
+                <p class="navbar-link"><a href="#most-wanted">Most Wanted</a></p>
+                <p class="navbar-link"><a href="collections.html">Collections</a></p>
+                <p class="navbar-link"><a href="./contact.html">Contact Us</a></p>
+            </div>
+    
+        </div>
+
+        <div class="container">
+
+
+
+  <div class="contact-form">
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  </div>
+
+    
+    <div class="news">
+        <h2>Join our News Letter</h2>
+        <p style="text-align: center;">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+        <div style="margin-top: 10px;">
+        <input class="search">
+    </div>
+    <div>
+        <button> Subscribe <i class="fa-solid fa-arrow-right"></i> </button>
+    </div>
+    </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText">Nostra</h2>
+                <p>The Standard chunk of Lorem ipsum
+                    used since the 1500s is reprodused
+                    below for those interest</p>
+                <div class="footer-icon-container">
+                    <i class="icon fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="icon fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="icon fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+            </div>
+
+            
+
+        </div>
+
+        <p class="subtitle">@ 2023 Nostra.com</p>
+    </div>
+
+   
+    
+    <!--Link Javascript File-->
+    <script src="./contact.js"></script>
+</body>
+
+</html>
